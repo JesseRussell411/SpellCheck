@@ -1,0 +1,145 @@
+I tried thinking of a way to rank how different two strings are.
+
+The simplest would be to iterate both and count how many characters are different:
+
+abcze
+abcde
+   |
+   1
+
+but that'll lead to erroneously large ranks if a character is accidently inserted:
+azbcdef
+abcdef
+ ||||||
+ 123456
+
+So I thought, I could try matching as many characters in order as possible
+
+azbcdef
+|/////
+abcdef
+mismatch:1 (z)
+
+I was working out a rather complicated algorithm for this, and it could have worked, but I was having difficultly with deciding how to rank the difference. Number of mismatching characters? what if both strings contain mismatched characters? Should I prioritize one? That doesn't seem right.
+
+But then I discovered the minimum edit distance algorithm. It works perfectly. It counts how many insertions, removals, or character swaps are needed to convert one string to another. It even works both ways because the same number of edits are needed to convert from string a to string b as is needed to convert from string b to string a, so I don't need to mark one of the stings as priority or master or anything like that.
+
+It was also a lot simpler to program than I thought. Much simpler than the solution I was going to do.
+
+And of course, I sent this file through the program too.
+
+
+java SpellCheck words.txt Discussion.txt
+itereate: did you mean:
+1.  iterate
+2.  overeate
+3.  mitergate
+4.  literate
+5.  terebate
+6.  biternate
+7.  iterates
+8.  iterated
+9.  terete
+10. increate
+11. itereate (no change)
+0.  something else
+1
+
+abcze: did you mean:
+1.  abaze
+2.  abc
+3.  ace
+4.  amaze
+5.  amuze
+6.  ancle
+7.  ancre
+8.  arcae
+9.  arche
+10. abave
+11. abcze (no change)
+0.  something else
+11
+
+abcde: did you mean:
+1.  abede
+2.  abide
+3.  abode
+4.  abrade
+5.  abd
+6.  abc
+7.  ace
+8.  ade
+9.  bcd
+10. bde
+11. abcde (no change)
+0.  something else
+11
+
+aroniously: did you mean:
+1.  ironiously
+2.  harmoniously
+3.  wrongously
+4.  atrociously
+5.  aroniously (no change)
+0.  something else
+0
+somehing else:erroneously
+
+azbcdef: did you mean:
+1.  azbcdef (no change)
+0.  something else
+1
+
+abcdef: did you mean:
+1.  abided
+2.  abider
+3.  abides
+4.  abede
+5.  abide
+6.  abode
+7.  aboded
+8.  abodes
+9.  abcdef (no change)
+0.  something else
+9
+
+azbcdef: did you mean:
+1.  azbcdef (no change)
+0.  something else
+1
+
+abcdef: did you mean:
+1.  abided
+2.  abider
+3.  abides
+4.  abede
+5.  abide
+6.  abode
+7.  aboded
+8.  abodes
+9.  abcdef (no change)
+0.  something else
+9
+
+dificulty: did you mean:
+1.  difficulty
+2.  difficultly
+3.  difficult
+4.  dificulty (no change)
+0.  something else
+2
+
+missmatching: did you mean:
+1.  mismatching
+2.  mispatching
+3.  missmatching (no change)
+0.  something else
+1
+
+missmatched: did you mean:
+1.  mismatched
+2.  mismatches
+3.  mispatched
+4.  missmatched (no change)
+0.  something else
+1

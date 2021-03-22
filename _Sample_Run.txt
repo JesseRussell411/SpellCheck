@@ -1,0 +1,295 @@
+java SpellCheck words.txt mydoc.txt
+caNn't: did you mean:
+1.  can't
+2.  cannot
+3.  cannat
+4.  cannet
+5.  ain't
+6.  can's
+7.  canna
+8.  canny
+9.  canst
+10. hain't
+11. caNn't (no change)
+0.  something else
+1
+
+Peece: did you mean:
+1.  peace
+2.  peeke
+3.  peele
+4.  peeve
+5.  pence
+6.  piece
+7.  meece
+8.  speece
+9.  yeech
+10. deice
+11. Peece (no change)
+0.  something else
+1
+
+walning: did you mean:
+1.  walling
+2.  waling
+3.  waning
+4.  wanning
+5.  warning
+6.  walking
+7.  wilning
+8.  calving
+9.  yawning
+10. wanting
+11. walning (no change)
+0.  something else
+6
+
+sudenly: did you mean:
+1.  suddenly
+2.  soddenly
+3.  rudely
+4.  pudency
+5.  sheenly
+6.  surely
+7.  nudely
+8.  suddenty
+9.  sullenly
+10. queenly
+11. sudenly (no change)
+0.  something else
+1
+
+xylopone: did you mean:
+1.  xylophone
+2.  xylitone
+3.  xylophones
+4.  xylopone (no change)
+0.  something else
+1
+
+saxaphone: did you mean:
+1.  saxophone
+2.  saxophones
+3.  saxaphone (no change)
+0.  something else
+1
+
+rocet: did you mean:
+1.  roncet
+2.  roset
+3.  rovet
+4.  royet
+5.  rowet
+6.  rocket
+7.  rochet
+8.  tacet
+9.  avocet
+10. socht
+11. rocet (no change)
+0.  something else
+6
+
+suprmarket: did you mean:
+1.  supermarket
+2.  supermarkets
+3.  suprmarket (no change)
+0.  something else
+1
+
+plannet: did you mean:
+1.  piannet
+2.  planet
+3.  planned
+4.  planner
+5.  panne
+6.  blanket
+7.  flanned
+8.  flannel
+9.  plangent
+10. pennet
+11. plannet (no change)
+0.  something else
+2
+
+jupitr: did you mean:
+1.  jupiter
+2.  jumpier
+3.  juvite
+4.  judith
+5.  jupati
+6.  junior
+7.  jupitr (no change)
+0.  something else
+1
+
+therre: did you mean:
+1.  terre
+2.  there
+3.  therme
+4.  theyre
+5.  cheare
+6.  cherie
+7.  cherte
+8.  cherry
+9.  chegre
+10. tsere
+11. therre (no change)
+0.  something else
+2
+
+fnd: did you mean:
+1.  fond
+2.  fn
+3.  nd
+4.  fund
+5.  2nd
+6.  and
+7.  end
+8.  fad
+9.  fed
+10. fid
+11. fnd (no change)
+0.  something else
+0
+somehing else:find
+
+joly: did you mean:
+1.  holy
+2.  joy
+3.  jolty
+4.  jolly
+5.  joey
+6.  joky
+7.  jole
+8.  joll
+9.  jolt
+10. jovy
+11. joly (no change)
+0.  something else
+4
+
+baskket: did you mean:
+1.  basket
+2.  lasket
+3.  backet
+4.  busket
+5.  baske
+6.  basenet
+7.  casket
+8.  bosket
+9.  banket
+10. basinet
+11. baskket (no change)
+0.  something else
+1
+
+illand: did you mean:
+1.  island
+2.  inland
+3.  elfland
+4.  golland
+5.  ilkane
+6.  millard
+7.  ireland
+8.  ithand
+9.  umland
+10. aland
+11. illand (no change)
+0.  something else
+1
+
+bodylandia: did you mean:
+1.  bodylandia (no change)
+0.  something else
+1
+
+meeet: did you mean:
+1.  meet
+2.  geet
+3.  defet
+4.  greet
+5.  ieee
+6.  levet
+7.  mee
+8.  met
+9.  omelet
+10. peert
+11. meeet (no change)
+0.  something else
+1
+
+etes: did you mean:
+1.  cetes
+2.  betes
+3.  fetes
+4.  jetes
+5.  ates
+6.  ekes
+7.  emes
+8.  eses
+9.  etas
+10. eten
+11. etes (no change)
+0.  something else
+0
+somehing else:eats
+
+Hoow: did you mean:
+1.  holw
+2.  hook
+3.  hool
+4.  hoom
+5.  hoon
+6.  hoop
+7.  hoot
+8.  hood
+9.  hoof
+10. hoo
+11. Hoow (no change)
+0.  something else
+0
+somehing else:how
+
+dijestive: did you mean:
+1.  digestive
+2.  directive
+3.  divertive
+4.  bijective
+5.  dijestive (no change)
+0.  something else
+1
+
+sistem: did you mean:
+1.  sisten
+2.  sister
+3.  system
+4.  bister
+5.  sinter
+6.  diastem
+7.  systems
+8.  item
+9.  lister
+10. listel
+11. sistem (no change)
+0.  something else
+3
+
+mammothe: did you mean:
+1.  mammoth
+2.  mammoths
+3.  mammate
+4.  mammose
+5.  mammothe (no change)
+0.  something else
+1
+
+aswerred: did you mean:
+1.  asserted
+2.  answered
+3.  swerved
+4.  aspersed
+5.  sweered
+6.  averred
+7.  aswerred (no change)
+0.  something else
+2
