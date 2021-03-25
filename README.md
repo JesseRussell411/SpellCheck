@@ -6,4 +6,4 @@ How to compile: javac SpellCheck.java
 
 How to run: java SpellCheck [text file containing correctly spelled words] [text file containing words to check].]
 
-  for example: java SpellCheck words.txt mydoc.txt
+----for example: java SpellCheck words.txt mydoc.txt
