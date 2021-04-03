@@ -55,7 +55,7 @@ public class SpellingChecker {
         B b;
     }
     /**
-     * Returns a SortedMap of the words nearest to the given word no larger than the given size.
+     * Returns a list of the words nearest to the given word no larger than the given size.
      * @param size Max size of the result.
      * @param maxEditDistance Max edit distance (number of changes, insertions, or removals) between the given word and each word in the result.
      */
@@ -133,7 +133,7 @@ public class SpellingChecker {
         // c 3 2 2 1 2 3 4
         // f 4 3 3 2 2 3(3) <- minimum edit distance
         // ^
-        //  ` - stirng b
+        //  ` - string b
         
         int[][] T = new int[a.length() + 1][b.length() + 1];
         
@@ -169,7 +169,7 @@ public class SpellingChecker {
                 if (a.charAt(i - 1) == b.charAt(j - 1))
                     T[i][j] = T[i - 1][j - 1];
                 else
-                    T[i][j] = 1 + Math.min(Math.min(T[i - 1][j], T[i][j - 1]), T[i - 1][j - 1]);    
+                    T[i][j] = 1 + Math.min(Math.min(  T[i - 1][j],     T[i][j - 1]),     T[i - 1][j - 1]  );
             }
         
         //     a b c d e f
