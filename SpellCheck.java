@@ -63,7 +63,7 @@ public class SpellCheck {
         String replacement = word;
         
         if (choice == 0){
-            System.out.print("somehing else:");
+            System.out.print("something else:");
             replacement = input.nextLine();
         }
         else if (choice == i){
