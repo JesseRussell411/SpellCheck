@@ -1,6 +1,6 @@
 # SpellCheck
 Spell checking program written in java. This was for csci232 (data structures and algorithms) at Montana State University.
-The heart of this program is the minimum edit ditance algorithm, which is used to find suitable replacements for misspelled words.
+The heart of this program is the minimum edit distance algorithm, which is used to find suitable replacements for misspelled words.
 
 How to compile: javac SpellCheck.java
 
